@@ -8,8 +8,13 @@ function Light()
 
 function Dark()
 {
-    document.body.style.backgroundColor='black' ;
-    document.body.style.color='white' ;
-    document.getElementById("Sombre").disabled = true ;
-    document.getElementById("Clair").disabled = false ;
+    var sound = new Audio("toutnoir.mp3") ;
+    sound.play() ;
+    setTimeout(function(){
+        document.body.style.backgroundColor='black' ;
+        document.body.style.color='white' ;
+        document.getElementById("Sombre").disabled = true ;
+        document.getElementById("Clair").disabled = false ;  
+    }, 3000);
+    
 }
