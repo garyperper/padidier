@@ -10,6 +10,7 @@ function Dark()
 {
     var sound = new Audio("toutnoir.mp3") ;
     sound.play() ;
+    window.alert("ça va être tout noir !") ; 
     setTimeout(function(){
         document.body.style.backgroundColor='black' ;
         document.body.style.color='white' ;
