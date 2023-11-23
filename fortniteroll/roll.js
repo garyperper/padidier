@@ -81,3 +81,4 @@ var rollListe = [
         document.getElementById("texteX").innerHTML = Number(alea) + 1 ;
         document.getElementById("txtdfi").innerHTML = defiChoisi;
     }
+    // v23.11.2023 21:06
