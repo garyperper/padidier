@@ -78,6 +78,6 @@ var rollListe = [
     {
         var alea = Math.floor(Math.random() * rollListe.length);
         var defiChoisi = rollListe[alea];
-        document.getElementById("texteX").innerHTML = alea ;
-        document.getElementById("txtdfi").innerHTML = defiChoisi
+        document.getElementById("texteX").innerHTML = Number(alea) + 1 ;
+        document.getElementById("txtdfi").innerHTML = defiChoisi;
     }
