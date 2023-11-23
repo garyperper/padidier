@@ -74,11 +74,11 @@ var rollListe = [
     "Surchauffe (doit overbuild à chaque fight)"
     ] ;
     
-    function Roll()
-    {
-        var alea = Math.floor(Math.random() * rollListe.length);
-        var defiChoisi = rollListe[alea];
-        document.getElementById("texteX").innerHTML = Number(alea) + 1 ;
-        document.getElementById("txtdfi").innerHTML = defiChoisi;
-    }
-    // v23.11.2023 21:06
+function Roll()
+{
+    var alea = Math.floor(Math.random() * rollListe.length);
+    var defiChoisi = rollListe[alea];
+    document.getElementById("texteX").innerHTML = Number(alea) + 1 ;
+    document.getElementById("txtdfi").innerHTML = defiChoisi;
+}
+    // v23.11.2023 21:13
